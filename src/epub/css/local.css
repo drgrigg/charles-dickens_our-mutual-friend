@@ -1,6 +1,18 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+
+/* this is to create equivalent of a brace when four people speak at once */
+#chapter-1-2 div{
+	padding-left: 1em;
+	border-left: 1px solid black;
+}
+
+#chapter-1-2 div p:first-child{
+	text-indent: 1em;
+	hanging-punctuation: none;
+}
+
 #chapter-2-6 blockquote header{
 	margin-bottom: 0.5em;
 }

@@ -1,20 +1,19 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-
 /* this is to create equivalent of a brace when four people speak at once */
 #chapter-1-2 div{
-	padding-left: 1em;
 	border-left: 1px solid black;
+	padding-left: 1em;
 }
 
 #chapter-1-2 div p:first-child{
-	text-indent: 1em;
 	hanging-punctuation: none;
+	text-indent: 1em;
 }
 
 #chapter-2-6 blockquote header{
-	margin-bottom: 0.5em;
+	margin-bottom: .5em;
 }
 
 #chapter-2-6 blockquote p{
@@ -29,18 +28,17 @@
 
 #chapter-1-5 blockquote:first-of-type{
 	border: 2pt solid black;
-	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
+	width: 40%;
 }
 
 #chapter-1-5 blockquote:first-of-type p{
 	font-style: italic;
-	padding: 0.5em;
+	padding: .5em;
 }
 
 /* poetry styling */
-
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;

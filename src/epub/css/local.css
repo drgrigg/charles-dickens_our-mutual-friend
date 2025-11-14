@@ -7,13 +7,15 @@ blockquote header p{
 	text-align: center;
 }
 
-/* this is to create equivalent of a brace when four people speak at once */
-#chapter-1-2 div{
+/* this is to create equivalent of a brace when several people speak at once */
+#chapter-1-2 div,
+#chapter-2-16 div{
 	border-left: 1px solid black;
-	padding-left: 1em;
+	padding-left: 0;
 }
 
-#chapter-1-2 div p:first-child{
+#chapter-1-2 div p:first-child,
+#chapter-2-16 div p:first-child{
 	hanging-punctuation: none;
 	text-indent: 1em;
 }

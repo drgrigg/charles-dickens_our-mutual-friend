@@ -21,7 +21,7 @@ blockquote header p{
 }
 
 #chapter-1-5 blockquote:first-of-type{
-	border: 2pt solid black;
+	border: 2px solid;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;
@@ -37,16 +37,18 @@ blockquote header p{
 	font-variant: small-caps;
 	padding-bottom: .5em;
 	text-align: center;
+	text-indent: 0;
 }
 
 #chapter-2-6 blockquote p:nth-of-type(3){
 	font-style: italic;
 	font-variant: normal;
 	text-align: center;
+	text-indent: 0;
 }
 
 #chapter-3-2 blockquote{
-	border: 2px solid black;
+	border: 2px solid;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 50%;
@@ -59,7 +61,7 @@ blockquote header p{
 }
 
 #chapter-3-2 blockquote p:nth-of-type(1){
-	font-size: 120%;
+	font-size: 1.4em;
 	font-variant: small-caps;
 }
 
@@ -72,23 +74,25 @@ blockquote header p{
 }
 
 /* poetry styling */
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
 }
 
 p span.i1{
@@ -96,23 +100,19 @@ p span.i1{
 	text-indent: -1em;
 }
 
-p span.i2{
-	padding-left: 3em;
+p span.i4{
+	padding-left: 5em;
 	text-indent: -1em;
 }
 
 /* Letters */
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
 
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
 
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
+[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 

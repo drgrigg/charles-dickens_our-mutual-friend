@@ -53,10 +53,10 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">When the body of an unknown man is dragged from the river Thames, a series of complications to do with the will of a wealthy man begin to reveal themselves and entangle the lives of several characters.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-		
-&lt;p&gt;&lt;i&gt;Our Mutual Friend&lt;/i&gt; is the last novel published by &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens&lt;/a&gt; before his death. It was published in serial form between 1864 and 1865. Like many of Dickens’ earlier works, it has a serious theme addressing social concerns such as how the poor and destitute were treated, but combines this with satire and a complex plot involving mistaken identity and the unintended consequences of the will of a rich man.&lt;/p&gt;
-&lt;p&gt;The novel begins with the retrieval of the body of a drowned man from the Thames river, a body which is identified as that of John Harmon, the heir to his father’s huge fortune. What happens to this fortune and to other people named in the will make up a large part of the story.&lt;/p&gt; 
-&lt;p&gt;Though &lt;i&gt;Our Mutual Friend&lt;/i&gt; was not regarded at the time of publication as one of Dickens’ best works, its critical reputation has improved in later years. Some early silent films were made based on the novel, but its length and the complexity of its plot probably make it more suitable for adaptation for television, and several successful versions have been made, with the most recent being a BBC serial in 1998.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Our Mutual Friend&lt;/i&gt; is the last novel published by &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens&lt;/a&gt; before his death. It was published in serial form between 1864 and 1865. Like many of Dickens’ earlier works, it has a serious theme addressing social concerns such as how the poor and destitute were treated, but combines this with satire and a complex plot involving mistaken identity and the unintended consequences of the will of a rich man.&lt;/p&gt;
+			&lt;p&gt;The novel begins with the retrieval of the body of a drowned man from the Thames river, a body which is identified as that of John Harmon, the heir to his father’s huge fortune. What happens to this fortune and to other people named in the will make up a large part of the story.&lt;/p&gt;
+			&lt;p&gt;It may be worth noting that in this novel Dickens introduces a kindly and worthy Jew, Solomon Riah. It has been suggested that this was a deliberate effort to redeem his harsh treatment of the Jewish character Fagin in his early novel &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/charles-dickens/oliver-twist"&gt;Oliver Twist&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;Though &lt;i&gt;Our Mutual Friend&lt;/i&gt; was not regarded at the time of publication as one of Dickens’ best works, its critical reputation has improved in later years. Some early silent films were made based on the novel, but its length and the complexity of its plot probably make it more suitable for adaptation for television, and several successful versions have been made, with the most recent being a BBC serial in 1998.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/883</dc:source>
@@ -71,8 +71,8 @@
 		<meta property="se:name.person.full-name" refines="#author">Charles John Huffam Dickens </meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charles_Dickens</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78087607</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aft</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">waw</meta>
 		<dc:contributor id="artist">Claude Monet</dc:contributor>
 		<meta property="file-as" refines="#artist">Monet, Claude</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Claude_Monet</meta>
